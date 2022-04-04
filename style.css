@@ -1,0 +1,91 @@
+body{
+    /*This is for styling the background
+    of my login page. I had named my Login
+    page Index.php*/
+    background-image: url(background2.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.index{
+    /* This is for styling
+    and positioning the rows*/
+    margin: auto;
+    max-width: 500px;
+    height: 700px;
+    position: center;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+.index h1{
+    /* This is for styling
+    the please login box*/
+    width: 300px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 40px;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    margin-top: 80px;
+}
+.index input{
+    /* This is for stying the input 
+    row, making it appear inline*/
+    display: inline;
+    width: 80%;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.index input:focus{
+    outline: none;
+}
+
+:placeholder{
+    /* this is for making the text white
+    while typing*/
+    color: white;
+    font-family: 'Arial';
+}
+
+.btnn{
+    /* This is for styling the
+    login button*/
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 40px;
+    font-size: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    color: white;
+    transition: 4 ease;
+}
+.btnn:hover{
+    /* This changes the login color 
+    when the cursor touches it */
+    background: white;
+    color: orange;
+}
+.link{
+    /* This is for styling the sign up
+    link at the buttom of the login box */
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 100%;
+}
